@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vídeos Legais</title>
+  <style>
+    body {
+      background-color: #1c1c1c;
+      color: #fff;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      margin: 20px 0;
+    }
+
+    .video-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .video-item {
+      width: 300px;
+      border-radius: 8px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+
+    .video-item:hover {
+      transform: scale(1.05);
+    }
+
+    .video-item img {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Vídeos legais para assistir</h1>
+  <div class="video-container">
+    <div class="video-item">
+      <a href="video1.html">
+        <img src="imagens/thumb-js.png" alt="Curso de JavaScript">
+      </a>
+    </div>
+    <div class="video-item">
+      <a href="video2.html">
+        <img src="imagens/thumb-html.png" alt="História da Internet">
+      </a>
+    </div>
+    <div class="video-item">
+      <a href="video3.html">
+        <img src="imagens/thumb-hardware.png" alt="Vídeo Hardware">
+      </a>
+    </div>
+    <div class="video-item">
+      <a href="video4.html">
+        <img src="imagens/thumb-python.png" alt="Seja um Programador">
+      </a>
+    </div>
+  </div>
+</body>
+</html>
